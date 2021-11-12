@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Memory Game</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+  <div class="flex-center">
+    <h1>
+      Memory Game - Latihan html css game simple
+    </h1>
+  </div>
+  <div class="row" id="game-content">
+  </div>
+  <div class="reset__section">
+    <div class="reset__container">
+      <div class="reset__button" onclick="resetGame();">Reset</div>
+      <h4>Matched:
+        <span id="points"></span>
+        <span>of</span>
+        <span id="total"></span>
+      </h4>
+      <h4>Moves:
+        <span id="moves"></span>
+      </h4>
+    </div>
+  </div>
+  <script src="app.js"></script>
+</body>
+
+</html>
